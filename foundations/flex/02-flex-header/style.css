@@ -1,19 +1,30 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  outline: solid 1px black;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
 }
 
+.left-links, .right-links, .logo {
+  outline: 2px solid blue;
+}
+
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
 }
 
 a {
